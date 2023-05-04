@@ -1,4 +1,4 @@
-Nmap Commmands
+Nmap Commmands  - python3 nmap_commands.py -i 192.168.1.1 -c -sS,-Pn,-sV
 
 nmap -sp <IP>   -    (Scan All Networks)
 nmap -O <IP>    -   (OS Info of only One IP)
