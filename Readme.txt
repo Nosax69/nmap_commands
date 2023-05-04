@@ -16,4 +16,4 @@ nmap -sU <IP>   -    (Scan TCP)
 nmap -sT <IP>   -    (Scan UDP)
 nmap <IP> -max-parallelism 800 -Pn --script http-slowloris --script-args http-slowloris.runforever=true
 nmap -sV --script=http-malware-host <IP>
-nmap --spoof-mac -sp 192.168.1.* (This command will restrict to other device to scan our Network)
+nmap --spoof-mac -sp <IP> -  (This command will restrict to other device to scan our Network)
